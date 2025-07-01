@@ -1,0 +1,267 @@
+<!DOCTYPE html>  <html lang="id">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Aboutme</title>  
+  <link rel="stylesheet" href="style.css" />  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />  
+</head>  
+<body>  
+
+  <div class="page" id="home">  
+    <img src="https://files.catbox.moe/te8lty.jpg" alt="Logo" class="logo floating" />  
+    <audio id="bg-music" src="https://files.catbox.moe/z4b1u2"></audio>  
+    <button onclick="toggleMusic()">Play Music</button>  <!-- Pemutar Musik -->  
+<div id="music-player" style="display:none; margin-top:10px; text-align:center;">  
+  <p id="music-title"><strong>Judul Lagu:</strong> DJ STECU STECU X PICA PICA SLOW</p>  
+  <p id="music-artist"><strong>Penyanyi:</strong> NDAA FVNK</p>  
+  <input type="range" id="seek-bar" value="0" style="width:80%;" />  
+  <p><span id="current-time">0:00</span> / <span id="duration">0:00</span></p>  
+  <button onclick="stopMusic()">Stop</button>  
+</div>  
+
+<nav>  
+</nav>  
+<p id="typed-text"></p>  
+<script>
+
+const text = "halo bang, terimakasih telah menungjungi website saya scroll ke bawah";
+const typedText = document.getElementById("typed-text");
+let index = 0;
+
+function typeEffect() {
+if (index < text.length) {
+typedText.innerHTML += text.charAt(index);
+index++;
+setTimeout(typeEffect, 40); // kecepatan ngetik, ubah 40 jadi lebih kecil kalau mau lebih cepet
+}
+}
+
+window.onload = typeEffect;
+</script>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin: 10px 0;">
+<a href="https://t.me/Vinzzblaster" target="_blank">
+<img src="https://files.catbox.moe/xltp58.jpg" alt="Telegram" class="icon floating" />
+</a>
+</div>
+<p><strong>Bahasa Pemrograman yang Dikuasai:</strong></p>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+<img src="https://files.catbox.moe/jiw6da.jpg" alt="JavaScript" class="icon floating" />
+<img src="https://files.catbox.moe/zlyx85.jpg" alt="Css" class="icon floating" />
+</div>
+</div>
+<div class="page" id="partner">
+  <h2>SCROOL KEBAWAH BANG</h2>
+  <div class="produk-list">
+
+    <!-- PARTNER BIASA -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/etbvtv.jpg" alt="PARTNER BIASA" class="floating" />
+      <p><strong>PARTNER BIASA</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- GET ADMIN ROOM PUBLIC</li>
+        <li>- GET PROMOTED</li>
+        <li>- GET MURID INJEKTOR FF</li>
+        <li>- GET MURID BAN</li>
+        <li>- GET MURID RESET OTP</li>
+        <li>- GET MURBAN</li>
+        <li>- GET MURBAN TIKTOK</li>
+        <li>- GET MURDDOS</li>
+        <li>- GET MURBAN TELE</li>
+        <li>- GET TUTOR MASANG FUNC</li>
+        <li>- GET REPO UBOT 155</li>
+      </ul>
+      <p>Harga: Rp 10.000</p>
+      <a href="https://t.me/Vinzzblaster" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/testimonivbrs" target="_blank"><button>Testimoni</button></a>
+    </div>
+
+    <!--- PARTNER VVIP -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/etbvtv.jpg" alt="PARTNER VVIP" class="floating" />
+      <p><strong>PARTNER VVIP</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- GET SC PROTECT FULL UP</li>
+        <li>- GET MURJASEB</li>
+        <li>- GET ADMIN ROOM PUBLIC</li>
+        <li>- GET PROMOTED</li>
+        <li>- GET MURID INJEKTOR FF</li>
+        <li>- GET MURID BAN</li>
+        <li>- GET MURID RESET OTP</li>
+        <li>- GET MURBAN</li>
+        <li>- GET MURDDOS</li>
+        <li>- GET MURBAN TELE</li>
+        <li>- GET REPO UBOT 155</li>
+        <li>- GET MURRINEM APK</li>
+        <li>- NMA LU DIMSUKIN DI SC</li>
+        <li>- GET APK LOCK HP ORG</li>
+        <li>- GET TUTOR MASANG FUNC</li>
+        <li>- GET FUNCTION FC [3]</li>
+        <li>- GET FUNCTION DELAY [4]</li>
+        <li>- GET TUTOR MASANG DB</li>
+        <li>- GET TUTOR DOXING</li>
+        <li>- GET TUTOR GANTI DB</li>
+        <li>- GET SCRIPT OBF</li>
+        <li>- DIOPER BUYYER [ KALO ADA]</li>
+        <li>- GET MURNOK</li>
+        <li>- GET MURBAN IG</li>
+        <li>- GET MURBAN TIKTOK</li>
+        <li>- DLL</li>
+      </ul>
+      <p>Harga: Rp 45.000</p>
+      <a href="https://t.me/Vinzzblaster" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/testimonivbrs" target="_blank"><button>Testimoni</button></a>
+    </div>
+
+    <!-- TANGAN KANAN  -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/etbvtv.jpg" alt="TANGAN KANAN" class="floating" />
+      <p><strong>TANGAN KANAN</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- GET SC PROTECT FULL UP</li>
+        <li>- GET MURJASEB</li>
+        <li>- GET ADMIN ROOM PUBLIC</li>
+        <li>- GET PROMOTED</li>
+        <li>- GET MURID INJEKTOR FF</li>
+        <li>- GET MURID BAN</li>
+        <li>- GET MURID RESET OTP</li>
+        <li>- GET MURBAN</li>
+        <li>- GET MURDDOS</li>
+        <li>- GET MURBAN TELE</li>
+        <li>- GET REPO UBOT 155</li>
+        <li>- GET MURRINEM APK</li>
+        <li>- NMA LU DIMSUKIN DI SC</li>
+        <li>- GET APK LOCK HP ORG</li>
+        <li>- GET TUTOR MASANG FUNC</li>
+        <li>- GET FUNCTION SETIAP UPDATE</li>
+        <li>- GET TUTOR MASANG DB</li>
+        <li>- GET TUTOR DOXING</li>
+        <li>- GET TUTOR GANTI DB</li>
+        <li>- GET SCRIPT OBF</li>
+        <li>- GET MURNOK</li>
+        <li>- GET MURBAN IG</li>
+        <li>- GET MURBAN TIKTOK</li>
+        <li>- GET CEO PROTECT</li>
+        <li>- GET TUTOR MANGO DB</li>
+        <li>- GET TOOLS BAYPASS</li>
+        <li>- GET MURBAN VVIP</li>
+        <li>- DIBANTU FIX SC</li>
+        <li>- DIBANTU NAIK NAMA</li>
+        <li>- NMA LU DITARO DITQTO SC</li>
+        <li>- GET RESELLER ETERNAL</li>
+        <li>- DLL</li>
+      </ul>
+      <p>Harga: Rp 60.000</p>
+      <a href="https://t.me/Vinzzblaster" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/testimonivbrs" target="_blank"><button>Testimoni</button></a>
+    </div>
+
+    <!-- JASA BUAT SC BUG -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/etbvtv.jpg" alt="JASA BUAT SC BUG" class="floating" />
+      <p><strong>JASA BUAT SC BUG</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- BEBAS REQUEST MENU</li>
+        <li>- BASE SC DARI GUA</li>
+        <li>- FUNC DARI GUA</li>
+        <li>- PP SC DARI LU</li>
+        <li>- [ GUA YG NGERJAIN TINGGAL REQ AJA ]</li>
+        <li>- [ SESUAI FITUR AND KESULITAN ]</li>
+      </ul>
+      <p>Harga: Rp 10.000 - 50.000</p>
+      <a href="https://t.me/Vinzzblaster" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/testimonivbrs" target="_blank"><button>Testimoni</button></a>
+    </div>
+
+    <!-- JASA FIXED SCRIPT -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/etbvtv.jpg" alt="JASA FIXED SCRIPT" class="floating" />
+      <p><strong>JASA FIXED SCRIPT</strong></p>
+      <p><strong>HARGA:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- Dilihat dari error nya dulu</li>
+      </ul>
+      <p>Harga: Rp 5.000 - 60.000</p>
+      <a href="https://t.me/Vinzzblaster" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/testimonivbrs" target="_blank"><button>Testimoni</button></a>
+    </div>
+
+  </div>
+
+    <!-- Profile Section -->
+    <div class="profile-wrapper">
+      <img class="profile-img" src="https://files.catbox.moe/sn20zf.jpg" alt="Vinzzblaster Profile">
+      <h2>( ❄️ ) Olá Eu sou Vinzzblaster</h2>
+      <p>私は ─ WhatsApp テムを破壊しようとしているボットです。賢くご利用ください。</p>
+      <p><strong>🧠 Tentang Saya (ID):</strong><br> Saya adalah seorang developer script bug WhatsApp yang berfokus pada pengembangan dan eksploitasi sistem WhatsApp. Saya juga spesialis keamanan dalam pembuatan dan pelindungan script WhatsApp — baik untuk sistem berbasis Telegram maupun langsung via WhatsApp.</p>
+      <p><strong>🧠 About Me (EN):</strong><br> I am a WhatsApp bug script developer focused on system exploitation and security, including creating and securing WA bots integrated with Telegram or direct WA use.</p>
+      <div class="link-buttons">
+        <a href="https://t.me/Vinzzblaster" target="_blank" class="btn-link">
+          <img src="https://files.catbox.moe/te8lty.jpg" alt="Telegram">Telegram
+        </a>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 Web Shop — Powered by Vinzzblaster</div>
+  </div>
+
+  <nav style="margin-top: 20px;">
+    <button onclick="scrollToHome()">Back</button>
+  </nav>
+</div>
+ 
+  </nav>  
+</div>    <script>  
+    const music = document.getElementById("bg-music");  
+    const musicPlayer = document.getElementById("music-player");  
+    const seekBar = document.getElementById("seek-bar");  
+    const currentTimeEl = document.getElementById("current-time");  
+    const durationEl = document.getElementById("duration");  
+  
+    function toggleMusic() {  
+      if (music.paused) {  
+        music.play();  
+        musicPlayer.style.display = "block";  
+      } else {  
+        music.pause();  
+      }  
+    }  
+  
+    function stopMusic() {  
+      music.pause();  
+      music.currentTime = 0;  
+    }  
+  
+    music.addEventListener("loadedmetadata", () => {  
+      seekBar.max = music.duration;  
+      durationEl.textContent = formatTime(music.duration);  
+    });  
+  
+    music.addEventListener("timeupdate", () => {  
+      seekBar.value = music.currentTime;  
+      currentTimeEl.textContent = formatTime(music.currentTime);  
+    });  
+  
+    seekBar.addEventListener("input", () => {  
+      music.currentTime = seekBar.value;  
+    });  
+  
+    function formatTime(time) {  
+      const minutes = Math.floor(time / 60);  
+      const seconds = Math.floor(time % 60).toString().padStart(2, "0");  
+      return `${minutes}:${seconds}`;  
+    }  
+  
+    function scrollToProduk() {  
+      document.getElementById("produk").scrollIntoView({ behavior: "smooth" });  
+    }  
+  
+    function scrollToHome() {  
+      document.getElementById("home").scrollIntoView({ behavior: "smooth" });  
+    }  
+  </script>  </body>  
+</html>
